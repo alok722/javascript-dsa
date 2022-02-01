@@ -1,11 +1,14 @@
-<h1 align="center">Welcome to implementation of DSA with JS 🔥</h1>
+<h1 align="center">Implementation of DSA with JS 🔥</h1>
 
-[Singly Linked List](#linkedlist)  
-[Doubly Linked List](#doubly-linkedlist)  
-[Stack](#stack)  
+- [Singly Linked List](#linkedlist)  
+- [Doubly Linked List](#doubly-linkedlist)  
+- [Stack](#stack)  
+- [Queue](#queue)  
 
 <hr/>
 <h2 align="center">LinkedList</h2>
+
+> A linked list is a linear data structure consisting of a group of nodes where each node points to the next node by using a pointer. 
 
 ![Singly LinkedList Demo](LinkedList/assets/LL2.PNG)
 ```js
@@ -173,6 +176,8 @@ myLinkedList2.reverse();
 
 <h2 align="center">Doubly LinkedList</h2>
 
+>A doubly linked list is a data structure where a set of sequential links of records called nodes exist. Unlike the singly linked list, a node of a doubly linked list consists of three fields: two link fields and one information field. Two link fields provide information about the address of previous nodes and the next nodes in the sequence and one data field.
+
 ![Doubly LinkedList Demo](DoublyLinkedList/assets/DLL1.PNG)
 ```js
 class Node {
@@ -320,6 +325,8 @@ myList.shift();
 
 <h2 align="center">Stack</h2>
 
+>Stacks are a type of container adaptor, specifically designed to operate in a LIFO context (last-in first-out), where elements are inserted and extracted only from one end of the container.
+
 ![Stack](Stack/assets/S1.PNG)
 
 Stack implementation using LinkedList visualization:
@@ -376,6 +383,8 @@ class Stack {
 <hr>
 
 <h2 align="center">Queue</h2>
+
+>Queues are a type of container adaptors which operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
 
 ![Queue](Queue/assets/Q1.PNG)
 
